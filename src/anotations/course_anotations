@@ -1,0 +1,23 @@
+Qual o tipo de um Expressao Lambda?
+
+R. O tipo eh uma Functional Interface, e functionals interface sao interfaces que possuem apenas um metodo abstrato! Na contagem 
+dos metodos da interface (para verificar se ela tem apenas 1 metodo abstrato e portanto se eh uma interface funcional), os metodos
+herdados da classe Object nao contam. Geralmente eles estao ali apenas para por uma documentacao mais detalhada daquele metodo.
+- As interfaces funcionais podem ser anotadas com @FunctionalInterface porem nao eh obrigatorio, apenas ajudara o compilador a indicar
+um erro de compilacao caso voce esteja escrevendo uma Interface funcional com mais de um metodo abstrato.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Uma expressao lambda pode ser posta em uma variavel?
+
+Sim, como fazemos no exemplo: FileFilter filterWithLambda = (File file) -> file.getName().endsWith(".java");
+Por poderem ser postas em uma variavel, podem ser parametros de metodos ou tambem retornos de um metodo.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+As expressoes lambda sao um objeto?
+Sim e nao. Quando usamos classes anonimas ao inves de lambdas, utilizados a palavra reservada NEW, e isso cria um novo objeto em memoria
+o que faz com que a JVM tenha diversas tarefas para criar esse objeto (por exemplo executar os construtores de toda hierarquia desde
+Object ate a classe em sim, etc). Quando usamos lambda a JVM nao tem esse trabalho, por isso ela eh mto mais performatica, e na verdade
+ela eh um OBJETO SEM IDENTIDADE. Lambdas nao devem ser usadas como um objeto (chamar metodos e etc), deve ser pensada como um pedaco
+de codigo que pode ser movido e usado em muitos lugares.

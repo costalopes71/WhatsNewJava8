@@ -16,7 +16,6 @@ public class ListDirectoriesImpl {
 		System.out.println(javaFiles.length);
 		
 		// implementando a interface FileFilter com uma classe anonima
-		
 		FileFilter fileFilterAnon = new FileFilter() {
 			@Override
 			public boolean accept(File file) {
@@ -27,6 +26,15 @@ public class ListDirectoriesImpl {
 		File[] javaFiles2 = dir.listFiles(fileFilterAnon);
 		
 		for (File file : javaFiles2) {
+			System.out.println(file.getName());
+		}
+		
+		// tornando o codigo mais simples usando LAMBDA
+		FileFilter filterWithLambda = (File file) -> file.getName().endsWith(".java");
+		File[] listFiles2 = dir.listFiles(filterWithLambda);
+		
+		System.out.println("Using lambda: ");
+		for (File file : listFiles2) {
 			System.out.println(file.getName());
 		}
 		
