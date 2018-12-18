@@ -21,3 +21,8 @@ o que faz com que a JVM tenha diversas tarefas para criar esse objeto (por exemp
 Object ate a classe em sim, etc). Quando usamos lambda a JVM nao tem esse trabalho, por isso ela eh mto mais performatica, e na verdade
 ela eh um OBJETO SEM IDENTIDADE. Lambdas nao devem ser usadas como um objeto (chamar metodos e etc), deve ser pensada como um pedaco
 de codigo que pode ser movido e usado em muitos lugares.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+O que tenho na no Stream?
+Nada! Pq um Stream nao guarda dados!!!.
