@@ -10,6 +10,8 @@ public class ReductionExample {
 		
 		// empty list
 		List<Integer> emptyIntegers = Arrays.asList();
+		// lista com valores
+		List<Integer> integers = Arrays.asList(3, 2, 8, 17);
 		
 		// como a lista integers eh vazia, eh usado o Integer identity (primeiro parametro do reduce), que no caso deve ser 0 por se tratar
 		// de uma adicao
@@ -19,8 +21,7 @@ public class ReductionExample {
 		Integer sumWithMethodReference = emptyIntegers.stream().reduce(0, Integer::sum);
 		System.out.println("Sum with method reference: " + sumWithMethodReference);
 		
-		// lista com valores
-		List<Integer> integers = Arrays.asList(3, 2, 8, 17);
+		// com valores
 		Integer sum2 = integers.stream().reduce(0, (firstOperand, secondOperand) -> firstOperand + secondOperand);
 		// ou
 		Integer sum2WithMethodReference = integers.stream().reduce(0, Integer::sum);
