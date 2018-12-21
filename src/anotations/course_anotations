@@ -31,3 +31,8 @@ O jdk 8 disponibilizou um novo pacote: java.util.function, nele existem 43 inter
 		* BiPredicate<T, U> : espera dois objetos como parametro e retorna um booleano
 	- Function<T, R> : espera um objeto como parametro e retorna outro objeto
 		* BiFunction<T, U, R> : espera dois objetos como parametro e retorna um terceiro
+
+--------------------------------------------------------------------------------------------------------------------------
+O que tenho na no Stream?
+Nada! Pq um Stream nao guarda dados!!!.
+
