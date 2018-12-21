@@ -21,3 +21,13 @@ o que faz com que a JVM tenha diversas tarefas para criar esse objeto (por exemp
 Object ate a classe em sim, etc). Quando usamos lambda a JVM nao tem esse trabalho, por isso ela eh mto mais performatica, e na verdade
 ela eh um OBJETO SEM IDENTIDADE. Lambdas nao devem ser usadas como um objeto (chamar metodos e etc), deve ser pensada como um pedaco
 de codigo que pode ser movido e usado em muitos lugares.
+
+-------------------------------------------------------------------------------------------------------------------------
+O jdk 8 disponibilizou um novo pacote: java.util.function, nele existem 43 interfaces funcionais neles. Podem ser divididos em 4 categorias:
+	- Supplier<T> : nao espera nenhum objeto e fornece um objeto
+	- Cosumer<T> : aceita um objeto e nao devolve nada (System.out.prinln("exemplo de consumer");
+		* BiConsumer<T, U> : aceita 2 objetos (nao precisam ser do mesmo tipo)
+	- Predicate<T> : espera um objeto como parametro e retorna um booleano
+		* BiPredicate<T, U> : espera dois objetos como parametro e retorna um booleano
+	- Function<T, R> : espera um objeto como parametro e retorna outro objeto
+		* BiFunction<T, U, R> : espera dois objetos como parametro e retorna um terceiro
