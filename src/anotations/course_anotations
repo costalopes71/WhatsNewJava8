@@ -36,3 +36,25 @@ O jdk 8 disponibilizou um novo pacote: java.util.function, nele existem 43 inter
 O que tenho na no Stream?
 Nada! Pq um Stream nao guarda dados!!!.
 
+
+
+===========================================================================================================================
+Date and Time API (Java 8)
+===========================================================================================================================
+
+Conceitos da nova API que serao abordados:
+
+ * Intant and Duration
+ * LocalDate, Period
+ * TemporalAdjusters
+ * LocalTime
+ * ZonedTime
+ * Date formatters
+ 
+ A API Date (JDK 1.0) tem diversas desvantagens, mas principalmente por ser mutável.
+
+
+
+
+
+
