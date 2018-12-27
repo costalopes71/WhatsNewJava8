@@ -5,6 +5,7 @@ import java.util.Date;
 
 public class OldDateApi {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Calendar cal = Calendar.getInstance();
