@@ -1,9 +1,9 @@
-package com.pluralsight.whtasnewonjava8.filefilter.impl;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.filefilter.impl;
 
 import java.io.File;
 import java.io.FileFilter;
 
-import com.pluralsight.whtasnewonjava8.filefilter.JavaFileFilter;
+import com.pluralsight.whtasnewonjava8.lambdaandstream.filefilter.JavaFileFilter;
 
 public class ListDirectoriesImpl {
 

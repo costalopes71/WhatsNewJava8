@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.firstLambda;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.firstLambda;
 
 import java.util.Arrays;
 import java.util.Collections;

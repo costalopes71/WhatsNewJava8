@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.reduction;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.reduction;
 
 import java.util.Arrays;
 import java.util.List;

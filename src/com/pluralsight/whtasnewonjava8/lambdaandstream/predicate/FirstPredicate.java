@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.predicate;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.predicate;
 
 import java.util.function.Predicate;
 import java.util.stream.Stream;

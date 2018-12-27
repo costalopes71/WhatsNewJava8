@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.model;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.model;
 
 public class Person {
 

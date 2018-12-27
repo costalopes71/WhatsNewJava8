@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.chainconsumers;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.chainconsumers;
 
 import java.util.ArrayList;
 import java.util.Arrays;

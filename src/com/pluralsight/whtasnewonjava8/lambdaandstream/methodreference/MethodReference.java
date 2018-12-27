@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.methodreference;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.methodreference;
 
 import java.util.Arrays;
 import java.util.Collections;

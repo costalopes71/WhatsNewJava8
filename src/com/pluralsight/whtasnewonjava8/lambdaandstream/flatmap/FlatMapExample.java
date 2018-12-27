@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.flatmap;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.flatmap;
 
 import java.util.Arrays;
 import java.util.List;

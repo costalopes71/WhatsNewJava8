@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.filefilter;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.filefilter;
 
 import java.io.File;
 import java.io.FileFilter;

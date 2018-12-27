@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.predicate;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.predicate;
 
 import java.util.ArrayList;
 import java.util.List;

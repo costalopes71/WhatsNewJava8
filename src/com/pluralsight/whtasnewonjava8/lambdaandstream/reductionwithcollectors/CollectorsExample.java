@@ -1,4 +1,4 @@
-package com.pluralsight.whtasnewonjava8.reductionwithcollectors;
+package com.pluralsight.whtasnewonjava8.lambdaandstream.reductionwithcollectors;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -12,7 +12,7 @@ import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.pluralsight.whtasnewonjava8.model.Person;
+import com.pluralsight.whtasnewonjava8.lambdaandstream.model.Person;
 
 public class CollectorsExample {
 
