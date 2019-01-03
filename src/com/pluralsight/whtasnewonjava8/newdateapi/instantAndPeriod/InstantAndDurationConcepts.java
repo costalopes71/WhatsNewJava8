@@ -28,7 +28,7 @@ public class InstantAndDurationConcepts {
 		// eh o tempo entre dois instantes!
 		Duration elapsed = Duration.between(start, end);
 		long millis = elapsed.toMillis();
-		elapsed.toSeconds();
+//		elapsed.toSeconds(); //TODO entender pq parou de compilar essa linha (no java 10 o metodo esta privado.)
 		elapsed.toDays();
 		elapsed.toMinutes();
 		
